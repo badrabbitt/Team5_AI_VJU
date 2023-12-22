@@ -56,7 +56,7 @@ def generate_random_cost_matrix(N, seed=None):
 # print("Expanded Nodes:", expanded_nodes)
 # print("Generated Nodes:", generated_nodes)
 # print("Running Time:", end_time - start_time, "seconds")
-for N in [10,11,12]:
+for N in [5,10,11,12]:
   print("With N = ",N)
   for seed in range(1,6):
     cost_matrix = generate_random_cost_matrix(N, seed)
